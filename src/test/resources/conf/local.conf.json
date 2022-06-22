@@ -4,7 +4,7 @@
   "key": "wSjYxBg5GttnDBqs5q3P",
 
   "capabilities": {
-    "build": "testng-browserstack",
+    "build": "TestNG Demo HBAAQEIL",
     "name": "local_test",
     "browserstack.debug": true,
     "browserstack.local": true
