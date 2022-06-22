@@ -4,7 +4,7 @@
   "key": "wSjYxBg5GttnDBqs5q3P",
 
   "capabilities": {
-    "build": "Test Build v1.0",
+    "build": "TestNG Demo HBAAQEIL",
     "name": "single_test",
     "browserstack.debug": true
   },
