@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>testng-browserstack</name>
+    <name>testing-browserstack</name>
     <url>https://www.github.com/browserstack/testng-browserstack</url>
 
     <properties>
