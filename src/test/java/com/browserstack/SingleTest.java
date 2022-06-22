@@ -11,11 +11,11 @@ public class SingleTest extends BrowserStackTestNGTest {
     @Test
     public void test() throws Exception {
         driver.get("http://34.246.169.246:8080/");
-        WebElement element = driver.findElement(By.name("j_username"));
-        element.sendKeys("hbaaqeil");
-        WebElement element = driver.findElement(By.name("j_password"));
-        element.sendKeys("Hba@@--01");
-        element.submit();
+        WebElement element1 = driver.findElement(By.name("j_username"));
+        element1.sendKeys("hbaaqeil");
+        WebElement element2 = driver.findElement(By.name("j_password"));
+        element2.sendKeys("Hba@@--01");
+        element1.submit();
         Thread.sleep(5000);
 
         Assert.assertEquals("Dashboard [Jenkins]", driver.getTitle());
