@@ -11,8 +11,6 @@ public class SingleTest extends BrowserStackTestNGTest {
     @Test
     public void test() throws Exception {
         driver.get("https://www.google.com/ncr");
-        driver.findElement(By.xpath("//*[@id='L2AGLb']")).click();
-        Thread.sleep(2000);
         WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("BrowserStack");
         element.submit();
