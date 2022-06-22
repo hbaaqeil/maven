@@ -17,7 +17,7 @@
       "browser": "firefox"
     },
     "safari": {
-      "browser": "safari"
+      "browser": "edge"
     },
     "ie": {
       "browser": "internet explorer"
