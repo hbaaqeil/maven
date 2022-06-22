@@ -17,7 +17,7 @@
         </classes>
     </test>
 
-    <test name="SingleTestSafari">
+    <test name="SingleTestEdge">
         <parameter name="config" value="parallel.conf.json"/>
         <parameter name="environment" value="edge"/>
         <classes>
